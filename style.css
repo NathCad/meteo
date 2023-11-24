@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+#meteo {
+  font-size: 1.5rem;
+  border-radius: 10px 10px;
+  padding: 10px;
+  background: rgb(240, 225, 255);
+}
+input {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+label {
+  margin-right: 0.7rem;
+  font-weight: 600;
+}
+.meteo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.meteo-header > span:nth-child(1) {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.meteo-header > span:nth-child(2) {
+  font-size: 1.8rem;
+}
+ul {
+  list-style-type: none;
+}
+html {
+  background: rgba(133, 26, 80, 0.253);
+}
